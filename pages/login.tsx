@@ -5,7 +5,7 @@ import Link from 'next/link';
 import AuthForm from 'components/AuthForm';
 import PageLoading from 'components/PageLoading';
 import { useAuth } from 'utils/useAuth';
-import LogoWithText from 'components/LogoWithText';
+import logo from 'components/Logo';
 import LandingLayout from 'components/landing/LandingLayout';
 
 export default function Login() {
@@ -28,7 +28,7 @@ export default function Login() {
   return (
     <LandingLayout showNavbar={false} showFooter={false}>
       <Head>
-        <title>Sign In | Notabase</title>
+        <title>Sign In | VS. NOTES</title>
       </Head>
       <div className="min-h-screen bg-gray-50">
         <div className="container p-8 md:p-24">
@@ -37,7 +37,7 @@ export default function Login() {
           </div>
           <div className="card mx-auto md:p-12">
             <p className="-mt-2 pb-6 text-center text-xl">
-              Sign in to Notabase
+              Sign in to VS. NOTES
             </p>
             <AuthForm />
           </div>

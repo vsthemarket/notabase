@@ -2,7 +2,7 @@ import { FormEvent, useCallback, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
-import LogoWithText from 'components/LogoWithText';
+import LogoWithText from 'components//workspaces/notabase/components/logo.png';
 import LandingLayout from 'components/landing/LandingLayout';
 import supabase from 'lib/supabase';
 
@@ -35,7 +35,7 @@ export default function ResettingPassword() {
   return (
     <LandingLayout showNavbar={false} showFooter={false}>
       <Head>
-        <title>Reset your password | Notabase</title>
+        <title>Reset your password | VS. NOTES</title>
       </Head>
       <div className="min-h-screen bg-gray-50">
         <div className="container p-8 md:p-24">

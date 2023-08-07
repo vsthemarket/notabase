@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { IconMenu2 } from '@tabler/icons';
-import LogoWithText from 'components/LogoWithText';
+import logo from '/workspaces/notabase/components/logo.png';
 import MobileMenu from './MobileMenu';
 
 export default function Navbar() {
@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="container px-6 pt-6">
       <div className="flex items-center justify-between space-x-6 text-gray-900">
-        <LogoWithText />
+        <logo/>
         <button
           type="button"
           onClick={() => setIsMobileMenuOpen(true)}

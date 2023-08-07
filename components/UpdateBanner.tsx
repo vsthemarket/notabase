@@ -5,7 +5,7 @@ export default function UpdateBanner() {
       className="hidden w-full bg-blue-300 py-1 text-center font-semibold text-blue-900"
       onClick={updateAndReloadApp}
     >
-      A new version of Notabase is available. Click here to reload the app.
+      A new version of VS. NOTES is available. Click here to reload the app.
     </button>
   );
 }

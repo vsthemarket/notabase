@@ -12,9 +12,6 @@ import LandingLayout from 'components/landing/LandingLayout';
 import GraphViewImage from 'public/graph-view.png';
 import SidebarImage from 'public/sidebar.png';
 import PageStackingImage from 'public/page-stacking.png';
-import PricingPlans from 'components/PricingPlans';
-import PricingFaq from 'components/PricingFaq';
-
 export default function Home() {
   return (
     <LandingLayout showNavbar={false} showFooter={false}>
@@ -28,7 +25,7 @@ export default function Home() {
                   Think more clearly. Be more productive.
                 </h1>
                 <p className="mx-auto max-w-3xl pt-6 text-xl text-gray-700 md:pt-8 md:text-2xl">
-                  Notabase is a powerful and easy-to-use note-taking app.
+                  VS. NOTES is a powerful and easy-to-use note-taking app.
                   Connect your ideas together and write more effortlessly.
                 </p>
                 <Link
@@ -138,7 +135,7 @@ export default function Home() {
                     multiple notes at once and dive into rabbit holes.
                   </p>
                   <p className="mt-4 text-lg leading-relaxed text-gray-700 md:text-xl md:leading-relaxed">
-                    Notabase makes both focus and exploration easy and
+                    VS. NOTES makes both focus and exploration easy and
                     delightful.
                   </p>
                 </div>
@@ -204,7 +201,7 @@ export default function Home() {
                     Open source
                   </p>
                   <p className="mt-2 text-lg leading-relaxed text-gray-700">
-                    Contribute to our development! Notabase is open source with
+                    Contribute to our development! VS. NOTES is open source with
                     a public roadmap.
                   </p>
                 </div>
@@ -214,7 +211,7 @@ export default function Home() {
           <div className="py-8 md:py-16">
             <div className="container px-6">
               <h2 className="text-center text-3xl font-semibold md:text-4xl">
-                What can you do with Notabase?
+                What can you do with VS. NOTES?
               </h2>
               <div className="grid gap-6 pt-6 md:grid-cols-3 md:pt-8">
                 <div className="rounded-md bg-green-50 p-8 shadow">
@@ -287,7 +284,7 @@ export default function Home() {
                     No coding or design required.
                   </p>
                   <p className="pt-2 text-xs text-gray-500">
-                    *Coming soon with Notabase Publish
+                    *Coming soon with VS. NOTES Publish
                   </p>
                 </div>
               </div>
@@ -308,7 +305,7 @@ export default function Home() {
           <div className="py-8 md:py-16">
             <div className="container px-6">
               <h2 className="text-center text-3xl font-semibold md:text-4xl">
-                People 💚 Notabase
+                People 💚 VS. NOTES
               </h2>
               <div className="mx-auto max-w-3xl space-y-10 pt-6 text-center md:pt-8">
                 <p className="text-xl italic leading-normal">
@@ -332,7 +329,7 @@ export default function Home() {
                   there, most recently Roam / Craft / Mem / Obsidian.{' '}
                   <span className="bg-yellow-100 font-semibold">
                     Strangely, even just an hour or so in, I&apos;m getting a
-                    sense Notabase is already fulfilling a lot of what I&apos;m
+                    sense VS. NOTES is already fulfilling a lot of what I&apos;m
                     looking for
                   </span>
                   : OS interoperability; Markdown exports; clean UI. All of

@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 const DESCRIPTION =
-  'Notabase is a powerful and easy-to-use note-taking app for networked thinking. Connect your ideas together and write more effortlessly.';
+  'VS. NOTES is a powerful and easy-to-use note-taking app for networked thinking. Connect your ideas together and write more effortlessly.';
 
 class MyDocument extends Document {
   render() {

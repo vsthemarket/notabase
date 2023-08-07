@@ -6,7 +6,6 @@ import {
   IconMail,
   IconMessage,
   IconChevronsLeft,
-  IconBrandDiscord,
   IconSettings,
   IconHelp,
 } from '@tabler/icons';
@@ -30,7 +29,7 @@ export default function Header(props: Props) {
       <Menu>
         <Menu.Button className="flex w-full items-center justify-between overflow-x-hidden overflow-ellipsis whitespace-nowrap py-2 pl-6 text-left text-gray-800 hover:bg-gray-200 focus:outline-none active:bg-gray-300 dark:text-gray-200 dark:hover:bg-gray-700 dark:active:bg-gray-600">
           <div className="flex flex-1 items-center">
-            <span className="mr-1 select-none font-semibold">Notabase</span>
+            <span className="mr-1 select-none font-semibold">VS. NOTES</span>
             <IconSelector
               size={18}
               className="text-gray-500 dark:text-gray-400"
@@ -66,20 +65,13 @@ export default function Header(props: Props) {
           <DropdownItem
             as="a"
             className="border-t dark:border-gray-700"
-            href="https://8z3pisyojx8.typeform.com/to/tXt36EQM"
           >
-            <IconMessage size={18} className="mr-1" />
-            <span>Give feedback</span>
+      
           </DropdownItem>
-          <DropdownItem as="a" href="https://discord.gg/BQKNRu7nv5">
-            <IconBrandDiscord size={18} className="mr-1" />
-            <span>Join our Discord</span>
-          </DropdownItem>
-          <DropdownItem as="a" href="https://help.notabase.io">
             <IconHelp size={18} className="mr-1" />
             <span>Help Center</span>
           </DropdownItem>
-          <DropdownItem as="a" href="mailto:hello@notabase.io">
+          <DropdownItem as="a" href="mailto:stockspilgrim@vsthemarket.com">
             <IconMail size={18} className="mr-1" />
             <span>Contact us</span>
           </DropdownItem>
